@@ -6,7 +6,7 @@ a{
     color: black;
 }
 .background{
-    background-image: url('https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+    background-image: url('https://cdn.discordapp.com/attachments/705898466211135590/736048007652573252/unknown.png');
     position: fixed;
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@ a{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-image: url('https://cdn.discordapp.com/attachments/705898466211135590/736048007652573252/unknown.png');
+    background-color: cyan;
     text-align: center;
     border: 5px solid black;
     z-index: 1;
