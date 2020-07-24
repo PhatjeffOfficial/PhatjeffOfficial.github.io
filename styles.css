@@ -6,7 +6,7 @@ a{
     color: black;
 }
 .background{
-    background-image: url('https://cdn.discordapp.com/attachments/705898466211135590/736048007652573252/unknown.png');
+    background-image: url('https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
     position: fixed;
     padding: 0;
     margin: 0;
@@ -17,7 +17,7 @@ a{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    filter: blur(20px);
+    filter: blur(48px);
     z-index: -1;
 }
 
@@ -78,5 +78,5 @@ a{
 button:hover{
     border: none;
     color: black;
-    background-color: rgb(3, 152, 252);
+    background-color: cyan);
 }
