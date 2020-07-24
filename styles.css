@@ -1,0 +1,82 @@
+a{
+    text-decoration: none !important;
+}
+*{
+    text-shadow: -1px -1px black;
+    color: black;
+}
+.background{
+    background-image: url('https://images.theconversation.com/files/223729/original/file-20180619-126566-1jxjod2.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(48px);
+    z-index: -1;
+}
+
+.c1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: opacity(80%);
+}
+.innerContainer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: cyan;
+    text-align: center;
+    border: 5px solid black;
+    z-index: 1;
+
+}
+
+.topText{
+    margin-bottom: 0;
+    border-bottom: 1px solid black;
+}
+.bottomText {
+    margin-top: 0;
+}
+
+.divider{
+    border-bottom: 5px solid black;
+}
+
+.header {
+    text-align: left;
+    border-bottom: 2.5px solid black;
+}
+
+.headerContent {
+    text-align: left;
+}
+
+.niceButton {
+    text-shadow: none;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.display_inline_block{
+    display: inline;
+}
+
+button:hover{
+    border: none;
+    color: black;
+    background-color: cyan;
+}
