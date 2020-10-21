@@ -131,6 +131,7 @@ samp {
     margin-right: auto;
     font-weight: bold;
     font-size: 14.95px;
+    border-style: solid;
 }
 
 .center-element {
