@@ -152,10 +152,3 @@ samp {
 a:hover {
     color: rgb(237, 54, 17);
 }
-
-html {
-    max-width: 768px;
-    max-height: 1024px;
-    margin: auto;
-    display: block;
-  }
