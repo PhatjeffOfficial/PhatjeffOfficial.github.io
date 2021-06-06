@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-US" class="hide-scroll">
 <head> 
-    <title>We bring a fresh perspective HTML Template Live Demo</title>
+    <title>Our Website</title>
     <meta name="Keywords">
     <meta name="Description">
     
@@ -353,77 +353,7 @@ var shareasaleSSCID=shareasaleGetParameterByName("sscid");function shareasaleSet
 
     
     <meta name="robots" content="noindex, nofollow">
-    <script type="text/javascript">
-        var device = 'desktop';
-        function init($) {
-            $('#previewDesktopBtn').click(function (e) {
-                setLivePreviewFrameSize($(this));
-                setActiveResponsiveButton(this);
-                e.preventDefault();
-            });
 
-            $('#previewLaptopBtn').click(function (e) {
-                setLivePreviewFrameSize($(this));
-                setActiveResponsiveButton(this);
-                e.preventDefault();
-            });
-            $('#previewTabletBtn').click(function (e) {
-                setLivePreviewFrameSize($(this));
-                setActiveResponsiveButton(this);
-                e.preventDefault();
-            });
-            $('#previewPhoneHorizontalBtn').click(function (e) {
-                setLivePreviewFrameSize($(this));
-                setActiveResponsiveButton(this);
-                e.preventDefault();
-            });
-            $('#previewPhoneBtn').click(function (e) {
-                setLivePreviewFrameSize($(this));
-                setActiveResponsiveButton(this);
-                e.preventDefault();
-            });
-
-            detectActiveResponsiveButton();
-        }
-
-        if (jQuery.isReady) {
-            init(jQuery);
-        } else {
-            jQuery(function ($) {
-                init($);
-            });
-        }
-
-        function setActiveResponsiveButton(btn) {
-            $(".page-preview-header > a").removeClass("active");
-            $(btn).addClass("active");
-        }
-
-        function detectActiveResponsiveButton() {
-            var d = device;
-            if (!d) {
-                d = 'desktop';
-            }
-            $("#preview" + d.charAt(0).toUpperCase() + d.substr(1) + "Btn").click();
-        }
-
-        function getDataPreviewSizeAttr(el) {
-            return el.closest("[data-preview-size]").attr("data-preview-size");
-        }
-
-        function setLivePreviewFrameSize(srcEl) {
-            var getScrollbarWidth = function () {
-                var s = $('<div style="width:100px;height:100px;overflow:scroll;visibility:hidden;position:absolute;top:-99999px"><div style="height:200px;"></div></div>')
-                    .appendTo("body");
-                var res = s.width() - s.find("div").last().width();
-                s.remove();
-                return res;
-            };
-            var attr = getDataPreviewSizeAttr(srcEl);
-            $('#livePreviewFrame').width(attr.indexOf("%") !== -1 ? attr : parseInt(attr, 10) + getScrollbarWidth());
-        }
-
-    </script>
     <style>
         .dialog-wrapper {
             display: none !important;
@@ -497,19 +427,11 @@ var shareasaleSSCID=shareasaleGetParameterByName("sscid");function shareasaleSet
 
 
 <div class="page-preview">
-    <div class="page-preview-header">
-        <a class="hidden-sm hidden-xs" href="#" id="previewDesktopBtn" data-preview-size="100%"><img alt="Responsive Desktop Mode" src="/Content/Images/Site/responsive-desktop.png"></a>
-        <a class="hidden-sm hidden-xs" href="#" id="previewLaptopBtn" data-preview-size="1040px"><img alt="Responsive Laptop Mode" src="/Content/Images/Site/responsive-laptop.png"></a>
-        <a class="hidden-xs" href="#" id="previewTabletBtn" data-preview-size="820px"><img alt="Responsive Tablet Mode" src="/Content/Images/Site/responsive-tablet.png"></a>
-        <a class="hidden-xs" href="#" id="previewPhoneHorizontalBtn" data-preview-size="640px"><img alt="Responsive Phone Horizontal Mode" src="/Content/Images/Site/responsive-phone-horizontal.png"></a>
-        <a class="hidden-xs" href="#" id="previewPhoneBtn" data-preview-size="440px"><img alt="Responsive Phone Mode" src="/Content/Images/Site/responsive-phone.png"></a>
-        <a class="close" href="/ht/414698/we-bring-a-fresh-perspective-html-template"><img alt="Close" src="/Content/Images/Site/icon-close.png"></a>
-    </div>
     <div class="page-preview-body">
         <iframe id="livePreviewFrame" src="https://website395451.nicepage.io/Copy-of-Page-8-2.html?version=fc1ae66d-7af1-4a03-8052-03b14e8edcc1" width="1057" height="640" style="width:100%;"></iframe>
     </div>
 </div>
-<a style="position:absolute;top:17px;left:10px;" href="/"><img alt="NicePage.com" src="//csite.nicepage.com/Images/logo-w.png"></a>
+<a style="position:absolute;top:17px;left:10px;" href="/"><img alt="NicePage.com" src="logo.png"></a>
 
         <script>
             if (window.parent) {
